@@ -4,7 +4,7 @@ var imageSearch = require('node-google-image-search');
 //require('pug');
 
 var dbUrl = 'mongodb://localhost:27017/imagesearch';
-var collectionName = "test";
+var collectionName = "imagesearch";
 var mongo = require('mongodb').MongoClient
 
 function saveSearch(searchTerm) {
